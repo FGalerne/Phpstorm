@@ -14,9 +14,9 @@ $students = [
     "Nicolas"   => 19
 ];
 foreach ($students as $student){
-    $moy = $student/5;
+    $moy += $student;
 
 
 };
-echo "la moyenne des éléves de : ". $moy;
+echo "la moyenne des éléves de : ". $moy/5;
 
